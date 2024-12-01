@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقهى الرفاهية</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- الرأس والتنقل -->
+    <header>
+        <h1>مقهى الرفاهية</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">عنّا</a></li>
+                <li><a href="#menu">القائمة</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم الترحيب -->
+    <section id="about">
+        <h2>مرحبًا بكم في مقهى الرفاهية</h2>
+        <p>استمتعوا بتجربة فريدة مع أفضل أنواع القهوة والحلويات الطازجة في أجواء مريحة وجميلة.</p>
+        <img alt="صورة المقهى" style="width: 75%; border-radius: 10px;" src="https://media.istockphoto.com/id/1286692956/photo/empty-cafe-interior-with-chairs-and-tables.jpg?s=612x612&w=0&k=20&c=8rBA3ZWw6Cc4usSNj4QOkXRMfclmOlOU_HpH9emZLRA=" >
+    </section>
+
+    <!-- القائمة -->
+    <section id="menu">
+        <h2>قائمة المأكولات والمشروبات</h2>
+        <div class="menu-container">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1368238965/photo/coffee-cup-on-the-wooden-table.jpg?s=612x612&w=0&k=20&c=ZBZvJKXl8nFhvSvP7SE0zX0QsKYXc9DRPl1fqBm7_XA=" alt="قهوة أمريكية">
+                <h3>قهوة أمريكية</h3>
+                <p>10 ₪</p>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1092652322/photo/caffe-latte-macchiato-coffee-layered-with-milk.jpg?s=612x612&w=0&k=20&c=rqC6hyuMWbprzoyd0WHeuEa64Gi4_4Qr1ybPtyvhF90=" alt="لاتيه">
+                <h3>لاتيه</h3>
+                <p>15 ₪</p>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="كابتشينو">
+                <h3>كابتشينو</h3>
+                <p>12 ₪</p>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=KK-h7w4l0FNA0YMWvkr1X8UrAAB77z0f5tTByBYgReM=" alt="كيك الشوكولاتة">
+                <h3>كيك الشوكولاتة</h3>
+                <p>20 ₪</p>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/615639844/photo/savory-croissants-stuffed-with-emmental-cheese.jpg?s=612x612&w=0&k=20&c=MVBWQphA9N9Vj-dZ41n-ZejnAQr5rytqqMyBgLIJ8i8=" alt="كرواسون بالجبن">
+                <h3>كرواسون بالجبن</h3>
+                <p>8 ₪</p>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1161805849/photo/strawberry-vanilla-chocolate-ice-cream-with-waffle-cone-on-marble-stone-backgrounds.jpg?s=612x612&w=0&k=20&c=BXObHKE0gbA2autsMZGFeEmK2xGKYdJBbM1_ig0Boyk=" alt="آيس كريم فانيليا">
+                <h3>آيس كريم فانيليا</h3>
+                <p>10 ₪</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact">
+        <h2 style="text-align: center;">تواصل معنا</h2>
+        <p style="text-align: center;">: للاستفسار والحجوزات</p>
+        <p style="text-align: center;">الهاتف: 789-456-123S</p>
+        <p style="text-align: center;"> heba@Example.com : البريد الإلكتروني</p>
+        <form>
+            <label for="name" style="text-align: right;">: الاسم</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email" style="text-align: right;">: البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message" style="text-align: right;">: الرسالة</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024 مقهى الرفاهية</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* الرأس والتنقل */
+header {
+    background-image: url('https://media.istockphoto.com/id/1405480120/photo/tasty-cups-of-coffee.jpg?s=612x612&w=0&k=20&c=EjSJgfaYuArI8fBNpKt7eADcHiNQBREHkwyjEFjP4Dg='); /* استبدل 'header-bg.jpg' بمسار الصورة */
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0; 
+}
+header {
+    background-color: rgba(0, 0, 0, 0.6); 
+    background-blend-mode: overlay;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* قسم الترحيب */
+#about {
+    text-align: center;
+    padding: 2rem;
+}
+
+#about img {
+    margin-top: 1rem;
+}
+
+/* القائمة */
+#menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* البطاقات */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: calc(30% - 1rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* النماذج */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #5d4037;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* التذييل */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #5d4037;
+    color: #fff;
+}
